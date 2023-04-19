@@ -1,6 +1,6 @@
 pt-BR:
   activerecord:
     attributes:
-      post:
-        id: "Identificador do commentário"
+      comment:
+        id: "Identificador do comentário"
         comment: "Comentário"
