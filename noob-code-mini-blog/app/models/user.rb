@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   #  :lockable, :timeoutable, and :omniauthable
@@ -11,4 +9,8 @@ class User < ActiveRecord::Base
           :trackable,
           :validatable
   include DeviseTokenAuth::Concerns::User
+
+  has_many :posts
+  has_many :comments
+
 end

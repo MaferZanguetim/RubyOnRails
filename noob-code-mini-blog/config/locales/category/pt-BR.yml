@@ -1,0 +1,7 @@
+pt-BR:
+  activerecord:
+    attributes:
+      category:
+        id: "Identificador do categoria"
+        category: "Categoria"
+        name: "Nome"
